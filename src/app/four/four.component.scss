@@ -1,0 +1,78 @@
+.main{
+    height: 530px;
+    background-image: url("../../assets/collegeInside.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+    .left{
+        padding: 60px 10px;
+        .why{
+            color: red;
+            font-weight: bold;
+        }
+        .why1{
+            font-family:'Times New Roman', Times, serif;
+            color: white;
+            font-size: 30px;
+            line-height: 27px;
+        }
+        .why2{
+            color: rgb(226, 225, 225);
+            font-size: 20px;
+            line-height: 27px;
+            margin: 12px 0;
+        }
+        button{
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 8px;
+        }
+    }
+    .right{
+        img{
+            border: 5px solid rgba(170, 156, 91, 0.527);
+            box-shadow: 10px 10px 30px 21px rgb(187, 186, 183);
+        }
+        
+    }
+}
+
+@media screen and (max-width: 415px){
+    .main{
+        padding: 40px 40px;
+        .left{
+            padding: 60px 10px;
+            .why{
+                color: red;
+                font-weight: bold;
+            }
+            .why1{
+                font-family:'Times New Roman', Times, serif;
+                color: white;
+                font-size: 30px;
+                line-height: 30px;
+            }
+            .why2{
+                color: rgb(226, 225, 225);
+                font-size: 20px;
+                line-height: 30px;
+                margin: 12px 0;
+            }
+            button{
+                background-color: red;
+                color: white;
+                border: none;
+                padding: 8px 10px;
+            }
+        }
+        .right{
+            display: none;
+            
+        }
+    }
+
+
+}

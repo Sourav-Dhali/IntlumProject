@@ -1,0 +1,113 @@
+.main{
+    padding: 100px 100px;
+    background-image: linear-gradient(to right, rgba(7, 12, 8, 0.712) , rgb(43, 43, 28));
+    color: white;
+    .top{
+        display: flex;
+        justify-content: space-evenly;
+        .column{
+            color: rgb(187 192 255);
+            ul{
+                margin-left: -20px;
+                li{
+                    color: white;
+                    list-style: none;
+                    font-size: 14px;
+                }
+            }
+
+        }
+    }
+    .logos{
+        text-align: center;
+        img{
+            margin: 5px 6px;
+        }
+    }
+    .bottom{
+        margin-top: 20px;
+        
+        display: flex;
+        justify-content: space-evenly;
+        .left{
+            margin-top: 5px;
+            font-size: 35px;
+            color: rgb(160, 159, 159);
+            line-height: 0px;
+
+        }
+        .mid{
+            font-weight: bold;
+            font-size: 12px;
+            color: rgb(160, 159, 159);
+
+        }
+        .right{
+            font-weight: bold;
+            color: rgb(160, 159, 159);
+            font-size: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 415px){
+    .main{
+        padding: 20px 20px;
+        background-image: linear-gradient(to right, rgba(7, 12, 8, 0.712) , rgb(43, 43, 28));
+        color: white;
+
+        .top{
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-evenly;
+            .column{
+                color: rgb(187 192 255);
+                font-size: 15px;
+                ul{
+                    display: none;
+                    margin-left: -20px;
+                    li{
+                        color: white;
+                        list-style: none;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+
+        .logos{
+            display: block;
+            text-align: center;
+            img{
+                margin: 5px 6px;
+            }
+        }
+
+        .bottom{
+            display: block;
+            margin-top: 20px;
+            .left{
+                margin-top: 5px;
+                font-size: 35px;
+                color: rgb(160, 159, 159);
+                line-height: 40px;
+                text-align: center;
+    
+            }
+            .mid{
+                font-weight: bold;
+                font-size: 12px;
+                color: rgb(160, 159, 159);
+                text-align: center;
+    
+            }
+            .right{
+                font-weight: bold;
+                color: rgb(160, 159, 159);
+                font-size: 12px;
+                text-align: center;
+            }
+        }
+    }
+
+}

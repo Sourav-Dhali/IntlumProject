@@ -1,0 +1,92 @@
+.main{
+    height: 350px;
+    background-color: rgb(172, 178, 184);
+    padding: 30px 220px;
+    .first{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            font-size: 40px;
+            font-family: 'Times New Roman', Times, serif
+
+        }
+        .right{
+            button{
+                background-color: rgb(255, 0, 76);
+                color: white;
+                border: none;
+                padding: 10px;
+            }
+        }
+
+    }
+    .second{
+        display: flex;
+        justify-content: space-evenly;
+        .box{
+            width: 200px;
+            background-color: white;
+            padding: 10px;
+            line-height: 20px;
+            box-shadow: 4px 4px 6px black;
+            .text{
+                margin-bottom: 10px;
+            }
+
+        }
+
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .main{
+        height: 400px;
+        background-color: rgb(172, 178, 184);
+        padding: 20px 20px;
+        .first{
+            display: block;
+            justify-content: space-between;
+            .left{
+                font-size: 25px;
+                font-family: 'Times New Roman', Times, serif
+    
+            }
+            .right{
+                // display: none;
+                position: absolute;
+                left: 132px;
+                top: 4282px;
+                box-shadow: 4px 4px 6px #a18181;
+                button{
+                    background-color: rgb(255, 0, 76);
+                    color: white;
+                    border: none;
+                    padding: 5px 10px;
+                    
+                }
+            }
+    
+        }
+        .second{
+            display: block;
+            justify-content: space-evenly;
+            height: 277px;
+            width: 300px;
+            overflow: hidden;
+           margin: auto;
+            .box{
+                width: 285px;
+                background-color: white;
+                padding: 10px;
+                line-height: 20px;
+                box-shadow: 4px 4px 6px black;
+                .text{
+                    margin-bottom: 10px;
+                }
+    
+            }
+    
+        }
+    }
+
+}

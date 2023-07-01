@@ -1,0 +1,91 @@
+.main{
+    height: 270px;
+    background-color: rgb(202, 201, 201);
+    padding: 15px 40px;
+    .first{
+        font-size: 35px;
+        text-align: center;
+    }
+    .second{
+        color: rgb(48, 33, 83);
+        font-size: 40px;
+        text-align: center;
+        line-height: 24px;
+    }
+    .third{
+        display: flex;
+        justify-content: center;
+        margin: 23px 0;
+        .comp{
+            width: 150px;
+            img{
+                height: 60px;
+                width: 60px;
+                margin: 12px 0;
+            }
+            div{
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 415px){
+    .main{
+        height: 600px;
+        background-color: rgb(202, 201, 201);
+        padding: 15px 20px;
+        .first{
+            font-size: 35px;
+            text-align: center;
+        }
+        .second{
+            color: rgb(48, 33, 83);
+            font-size: 40px;
+            text-align: center;
+            line-height: 24px;
+        }
+        .third{
+            height: 480px;
+            display: block;
+            justify-content: center;
+            overflow: scroll;
+            overflow-x: hidden;
+            .comp{
+                width: 100%;
+                text-align: center;
+                img{
+                    height: 200px;
+                    width: 200px;
+                    margin: 12px 0;
+                }
+                div{
+                    font-weight: bold;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+        /* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+}

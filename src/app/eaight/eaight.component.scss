@@ -1,0 +1,207 @@
+.main {
+    padding: 50px 300px;
+    background-color: rgb(209, 206, 206);
+    background-image: url("../../assets/universityImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .scrollBox {
+
+        background-color: rgba(240, 248, 255, 0.582);
+        height: 300px;
+        padding: 10px 30px;
+        overflow: scroll;
+        overflow-x: hidden;
+
+        
+
+
+        .scrollComps {
+            display: flex;
+            justify-content: space-between;
+
+            .first {
+                width: 252px;
+                background-color: rgba(240, 248, 255, 0.788);
+
+                .name {
+                    font-size: 17px;
+                    text-align: center;
+                    font-weight: bold;
+                    line-height: 17px;
+                    margin-top: 15px;
+                }
+
+                .logo {
+                    font-size: 22px;
+                    text-align: center;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+            }
+
+            .second {
+                width: 280px;
+
+                .principle {
+                    font-size: 34px;
+                    line-height: 30px;
+                }
+
+                .message {
+                    margin: 14px 2px;
+                    font-weight: bold;
+                }
+
+                hr {
+                    width: 200px;
+                    display: block;
+                    margin: auto;
+                }
+
+                button {
+                    background-color: rgb(87, 189, 3);
+                    color: white;
+                    margin: 15px 10px;
+                    border: none;
+                }
+
+            }
+
+            .third {
+                width: 260px;
+
+                .notice {
+                    font-size: 33px;
+                }
+
+                .allNotices {
+                    font-size: 14px;
+                }
+
+                button {
+                    background-color: rgb(87, 189, 3);
+                    color: white;
+                    margin: 15px 10px;
+                    border: none;
+                }
+            }
+        }
+    }
+
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+@media screen and (max-width: 415px){
+    .main {
+        padding: 30px 30px;
+        background-color: rgb(209, 206, 206);
+        background-image: url("../../assets/universityImg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    
+        .scrollBox {
+            background-color: rgba(240, 248, 255, 0.582);
+            height: 300px;
+            padding: 10px 30px;
+            overflow: scroll;
+            overflow-x: hidden;
+    
+            .scrollComps {
+                // display: flex;
+                display: block;
+                // justify-content: space-between;
+    
+                .first {
+                    // width: 252px;
+                    width: 100%;
+                    background-color: rgba(240, 248, 255, 0.788);
+    
+                    .name {
+                        font-size: 17px;
+                        text-align: center;
+                        font-weight: bold;
+                        line-height: 17px;
+                        margin-top: 15px;
+                    }
+    
+                    .logo {
+                        font-size: 22px;
+                        text-align: center;
+                        font-family: 'Times New Roman', Times, serif;
+                    }
+                }
+    
+                .second {
+                    width: 280px;
+    
+                    .principle {
+                        font-size: 34px;
+                        line-height: 30px;
+                    }
+    
+                    .message {
+                        margin: 14px 2px;
+                        font-weight: bold;
+                    }
+    
+                    hr {
+                        width: 200px;
+                        display: block;
+                        margin: auto;
+                    }
+    
+                    button {
+                        background-color: rgb(87, 189, 3);
+                        color: white;
+                        margin: 15px 10px;
+                        border: none;
+                    }
+    
+                }
+    
+                .third {
+                    width: 260px;
+    
+                    .notice {
+                        font-size: 33px;
+                    }
+    
+                    .allNotices {
+                        font-size: 14px;
+                    }
+    
+                    button {
+                        background-color: rgb(87, 189, 3);
+                        color: white;
+                        margin: 15px 10px;
+                        border: none;
+                    }
+                }
+            }
+        }
+    
+    }
+
+
+}

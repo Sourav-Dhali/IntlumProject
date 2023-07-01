@@ -1,0 +1,92 @@
+.main{
+    padding: 50px 20px;
+    .first{
+        text-align: center;
+        color: red;
+
+    }
+    .second{
+        text-align: center;
+        color: gray;
+        font-size: 35px;
+
+    }
+    .third{
+        display: flex;
+        justify-content: space-evenly;
+
+        .cards{
+            line-height: 15px;
+
+            .one{
+                color: rgb(21, 187, 76);
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+
+        }
+
+    }
+}
+@media screen and (max-width: 415px){
+    .main{
+        padding: 20px 30px;
+        width: 100%;
+        .first{
+            text-align: center;
+            color: red;
+    
+        }
+        .second{
+            text-align: center;
+            color: gray;
+            font-size: 35px;
+    
+        }
+        .third{
+            width: 100%;
+            overflow: scroll;
+            overflow-y: hidden;
+            display: flex;
+            justify-content: space-evenly;
+    
+            .cards{
+                line-height: 15px;
+                text-align: center;
+                margin-left: 5px;
+    
+                .one{
+                    color: rgb(21, 187, 76);
+                    font-size: 12px;
+                    margin-bottom: 5px;
+                }
+                .two{
+                    font-size: 12px;
+                }
+    
+            }
+    
+        }
+    }
+
+
+    /* width */
+::-webkit-scrollbar {
+    width: -1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+}

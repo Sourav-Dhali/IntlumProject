@@ -1,0 +1,55 @@
+.main{
+    height: 530px;
+    background-image: url("../../assets/collegeInside.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 100px;
+    .left{
+        img{
+            border: 5px solid rgba(170, 156, 91, 0.527);
+            box-shadow: 10px 10px 30px 21px rgb(187, 186, 183);
+        }
+        
+    }
+    .right{
+        padding: 60px 10px;
+        width: 500px;
+        .heading{
+            color: red;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        
+    }
+}
+
+
+@media screen and (max-width: 415px){
+    .main{
+        height: 530px;
+        background-image: url("../../assets/collegeInside.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+        padding: 30px 30px;
+        .left{
+            display: none;
+        }
+        .right{
+            padding: 10px 10px;
+            width: 100%;
+            .heading{
+                color: red;
+                font-size: 30px;
+                margin-bottom: 10px;
+                text-align: center;
+                font-weight: bold;
+            }   
+        }
+    }
+
+}
